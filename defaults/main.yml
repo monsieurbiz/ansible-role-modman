@@ -1,0 +1,5 @@
+---
+# defaults file for monsieurbiz.modman
+
+monsieurbiz_modman_binary_url: https://raw.githubusercontent.com/colinmollenhour/modman/master/modman
+

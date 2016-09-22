@@ -1,0 +1,9 @@
+---
+# Modman
+
+- name: Install modman
+  become: yes
+  become_user: root
+  get_url: url={{ monsieurbiz_modman_binary_url }} dest=/usr/local/bin/modman mode=0755
+  tags: [monsieurbiz, modman]
+
